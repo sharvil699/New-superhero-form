@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>
+      Superhero form
+  </title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>
+    Superhero form
+    </h1>
+    <form action="mailto:khoslakapil@gmail.com"enctype="text/plain" autocomplete="on" target="_self">
+        <label>
+            What is your superhero name?
+        </label> <br>
+        <input type="text"> <br> 
+        <label for="gender">
+            Gender
+        </label> <br>
+        <input type="radio"name="gender" id="Male" value="Male">
+        <label for="Male">
+            Male 
+        </label> <br> 
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Female">
+            Female
+        </label> <br>
+        <label for="Greatest">
+            What is your greatest strength?
+        </label> <br>
+        <textarea row="5" cols="20" id="Greatest" name="Greatest"></textarea> <br>
+        <label>
+            Skill
+         <br>
+            <label for="speed">speed</label>
+        <input type="number"id="speed" name="speed" min="1" max="100"><br>
+          <label for="strength">strength</label>
+         <input type="number" id="strength" name="strength" min="1" max="100"><br>
+         <label for="Waterbending">Waterbending</label>
+        <input type="number" id="Waterbending" name="Waterbending" min="1" max="100"><br>
+        <label for="Invisibility">Invisibility</label>
+        <input type="number"id="Invisibility" name="Invisibility" min="1" max="100"><br>
+        <label for="superhearing">superhearing</label>
+         <input type="number" id="superhearing" name="superhearing" min="1" max="100"><br>
+          <label for="supersmart">supersmart</label>
+        <input type="number" id="supersmart" name="supersmart" min="1" max="100"><br>
+          <input type="submit">
+    </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

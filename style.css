@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  width: 100%; 
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/942.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color:#77CBB9 ;
+  line-height: 2;
+}
+label{
+  font-size: 20px;
+} 
+body{
+  margin-left: 20px;
+}
